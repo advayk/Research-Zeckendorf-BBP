@@ -1,2 +1,6 @@
 # Zeckendorf-BBP
-An optimized BBP algorithm using the Zeckendorf theorem. Paper and poster in current progress. 
+An optimization of the Bailey–Borwein–Plouffe formula(BBP) algorithm by using the Zeckendorf theorem. 
+
+Addationally, the proposed method is also implemented to compute e. 
+
+Paper and poster are in current progress. 
