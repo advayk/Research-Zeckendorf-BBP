@@ -1,12 +1,13 @@
+// Advay Koranne (C) 2020.
+// Purpose: To create an optimization of the BBP Algorithm using Zeckendorf Telescoping
+
 package com.company;
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
 
-// Advay Koranne
-// An optimization of the BBP Algorithm using Zeckendorf Telescoping
 public class Main {
-//    private static int[] intArray = new int[]{ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946};
+//  private static int[] intArray = new int[]{ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946};
     private static int[] intArray = new int[]{ 8, 13, 21};
 
     public static void main(String[] args) {
@@ -22,7 +23,6 @@ public class Main {
                 System.out.println("bbp: " + pi);
                 long BBPTime = System.nanoTime() - startTime;
                 total1 += BBPTime;
-
             }
             System.out.println(total1);
         }
@@ -81,6 +81,7 @@ public class Main {
     }
 
 
+    // Value of pi to check output of program from the source: http://www.geom.uiuc.edu/~huberty/math5337/groupe/digits.html
     public static String value_of_pi() {
         return "Actual value of pi = 3.141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067982148086513282306647093844609550582231725359408128481117450284102701938521105559644622948954930381964428810975665933446128475648233";
 
